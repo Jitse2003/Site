@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13fc9f58-5665-4dbe-a032-a1a2ee6850a9" name="Changes" comment="Image toegevoegd in Over mij pagina en formaat aangepast naar een grid met columns.">
+    <list default="true" id="13fc9f58-5665-4dbe-a032-a1a2ee6850a9" name="Changes" comment="Overmij pagina afgemaakt (tekst gecentreerd en posities aangepast en laatste verbeteringen in woorden gedaan)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CV.html" beforeDir="false" afterPath="$PROJECT_DIR$/CV.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Opmaak.css" beforeDir="false" afterPath="$PROJECT_DIR$/Opmaak.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Overmij.html" beforeDir="false" afterPath="$PROJECT_DIR$/Overmij.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +35,7 @@
       <option name="presentableId" value="Default" />
       <updated>1671366944329</updated>
       <workItem from="1671366946337" duration="6446000" />
-      <workItem from="1671375131217" duration="2509000" />
+      <workItem from="1671375131217" duration="3335000" />
     </task>
     <task id="LOCAL-00001" summary="Image toegevoegd in Over mij pagina en formaat aangepast naar een grid met columns.">
       <created>1671369852075</created>
@@ -45,7 +44,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671369852076</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Overmij pagina afgemaakt (tekst gecentreerd en posities aangepast en laatste verbeteringen in woorden gedaan)">
+      <created>1671377673433</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671377673433</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -65,6 +71,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Image toegevoegd in Over mij pagina en formaat aangepast naar een grid met columns." />
-    <option name="LAST_COMMIT_MESSAGE" value="Image toegevoegd in Over mij pagina en formaat aangepast naar een grid met columns." />
+    <MESSAGE value="Overmij pagina afgemaakt (tekst gecentreerd en posities aangepast en laatste verbeteringen in woorden gedaan)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Overmij pagina afgemaakt (tekst gecentreerd en posities aangepast en laatste verbeteringen in woorden gedaan)" />
   </component>
 </project>

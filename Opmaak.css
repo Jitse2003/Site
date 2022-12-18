@@ -103,17 +103,22 @@ li a:hover {
     width: 95%;
     margin-left: 0.8em;
 }
-#ContactInformationUL{
+.CV ul{
     display: inline-block;
+    margin-bottom: 0;
     margin-top: 0;
 }
-#ContactInformationUL li{
+.CV li{
     margin-bottom: 5px;
     display: inline;
     clear: both;
 }
 .CV h2{
     margin-bottom: 0.3em;
+    margin-top: 0.3em;
+}
+.CV p{
+    margin-left: 2.5em;
 }
 .AboutMeMain {
     margin: 0 0;
