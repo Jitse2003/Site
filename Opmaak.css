@@ -111,7 +111,9 @@ li a:hover {
     margin-left: 0.8em;
 }
 #instagramicon{
-
+width: 10%;
+    height: 10%;
+    opacity: 75%;
 }
 .CV ul{
     display: inline-block;
