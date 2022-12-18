@@ -4,7 +4,9 @@ body {
     font-size: 1.2em;
     background-color: rgba(211, 211, 211, 0.5);
 }
-
+header{
+    margin-bottom: 4.5em;
+}
 main {
     margin-top: 2em;
     margin-left: 1em;
@@ -52,6 +54,11 @@ li {
     float: left;
 }
 nav ul {
+    position: fixed;
+    width: 99%;
+    top: 5px;
+    right: 5px;
+    left: 5px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -102,6 +109,9 @@ li a:hover {
     height: 95%;
     width: 95%;
     margin-left: 0.8em;
+}
+#instagramicon{
+
 }
 .CV ul{
     display: inline-block;
