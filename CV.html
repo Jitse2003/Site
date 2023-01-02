@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Opmaak.css">
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Website</title>
 </head>
 <body>
-<header>
-    <nav>
-        <ul>
-            <li><a href="Index.html">Home</a></li>
-            <li><a href="Overmij.html">Over mij</a></li>
-            <li><a href="CV.html" id="hier">CV</a></li>
-            <li><a href="Werkplekleren.html">Werkplekleren</a></li>
-            <li id="contact"><a href="Contact.html">Contact</a></li>
-        </ul>
+<header class="navbar-brand h1">
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                    <a class="nav-item nav-link text-white active" href="Index.html">Home</a>
+                    <a class="nav-item nav-link text-white" href="CV.html">CV</a>
+                    <a class="nav-item nav-link text-white" href="Overmij.html">Over mij</a>
+                    <a class="nav-item nav-link  text-white" href="Contact.html">Contact</a>
+            </div>
+        </div>
     </nav>
 </header>
 <div class="CV">
@@ -48,4 +53,14 @@
 <footer class="footer">
     <p>Contact info</p>
 </footer>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const navToggler = document.querySelector('.navbar-toggler');
+        const navMenu = document.querySelector('.navbar-collapse');
+
+        navToggler.addEventListener('click', () => {
+            navMenu.classList.toggle('show');
+        });
+    });
+</script>
 </html>

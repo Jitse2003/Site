@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13fc9f58-5665-4dbe-a032-a1a2ee6850a9" name="Changes" comment="Navigatie bar op positie fixed gezet zodat deze mee op en neer gaat naargelang de gebruiker naar beneden of boven scrolled">
+    <list default="true" id="13fc9f58-5665-4dbe-a032-a1a2ee6850a9" name="Changes" comment="Instagram icon met link naar instagram account gezet in Contact Informatie op CV pagina.">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SIte.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SIte.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CV.html" beforeDir="false" afterPath="$PROJECT_DIR$/CV.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Opmaak.css" beforeDir="false" afterPath="$PROJECT_DIR$/Opmaak.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Overmij.html" beforeDir="false" afterPath="$PROJECT_DIR$/Overmij.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +39,11 @@
       <option name="presentableId" value="Default" />
       <updated>1671366944329</updated>
       <workItem from="1671366946337" duration="6446000" />
-      <workItem from="1671375131217" duration="4203000" />
+      <workItem from="1671375131217" duration="4726000" />
+      <workItem from="1671395014162" duration="1000" />
+      <workItem from="1671622997126" duration="151000" />
+      <workItem from="1671623207878" duration="316000" />
+      <workItem from="1672668288725" duration="7209000" />
     </task>
     <task id="LOCAL-00001" summary="Image toegevoegd in Over mij pagina en formaat aangepast naar een grid met columns.">
       <created>1671369852075</created>
@@ -65,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671379149076</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Instagram icon met link naar instagram account gezet in Contact Informatie op CV pagina.">
+      <created>1671379671547</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671379671547</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +103,7 @@
     <MESSAGE value="Overmij pagina afgemaakt (tekst gecentreerd en posities aangepast en laatste verbeteringen in woorden gedaan)" />
     <MESSAGE value="Maak van Contact informatie, Samenvatting, Opleiding, Technische Skills en Projecten op de CV pagina, Ook toepassing van CSS op de list elementen." />
     <MESSAGE value="Navigatie bar op positie fixed gezet zodat deze mee op en neer gaat naargelang de gebruiker naar beneden of boven scrolled" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navigatie bar op positie fixed gezet zodat deze mee op en neer gaat naargelang de gebruiker naar beneden of boven scrolled" />
+    <MESSAGE value="Instagram icon met link naar instagram account gezet in Contact Informatie op CV pagina." />
+    <option name="LAST_COMMIT_MESSAGE" value="Instagram icon met link naar instagram account gezet in Contact Informatie op CV pagina." />
   </component>
 </project>
