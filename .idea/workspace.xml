@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13fc9f58-5665-4dbe-a032-a1a2ee6850a9" name="Changes" comment="Omzetting naar bootstrap + hamburg menu">
+    <list default="true" id="13fc9f58-5665-4dbe-a032-a1a2ee6850a9" name="Changes" comment="Bootstrap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV.html" beforeDir="false" afterPath="$PROJECT_DIR$/CV.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Overmij.html" beforeDir="false" afterPath="$PROJECT_DIR$/Overmij.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smiley.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Smiley2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Werkplekleren.html" beforeDir="false" afterPath="$PROJECT_DIR$/Werkplekleren.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +46,7 @@
       <workItem from="1671623207878" duration="316000" />
       <workItem from="1672668288725" duration="10871000" />
       <workItem from="1672692912048" duration="3000" />
-      <workItem from="1672754946979" duration="7212000" />
+      <workItem from="1672754946979" duration="9930000" />
     </task>
     <task id="LOCAL-00001" summary="Image toegevoegd in Over mij pagina en formaat aangepast naar een grid met columns.">
       <created>1671369852075</created>
@@ -85,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672676072330</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Bootstrap">
+      <created>1672764535804</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672764535804</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +122,7 @@
     <MESSAGE value="Navigatie bar op positie fixed gezet zodat deze mee op en neer gaat naargelang de gebruiker naar beneden of boven scrolled" />
     <MESSAGE value="Instagram icon met link naar instagram account gezet in Contact Informatie op CV pagina." />
     <MESSAGE value="Omzetting naar bootstrap + hamburg menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Omzetting naar bootstrap + hamburg menu" />
+    <MESSAGE value="Bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bootstrap" />
   </component>
 </project>

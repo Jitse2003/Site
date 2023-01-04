@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <title>Voorbeeldformulier</title>
+    <title>Formulier</title>
 </head>
 <body>
 <header class="navbar-brand h1">
@@ -14,21 +14,22 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
+            <div class="navbar-nav mx-4">
                 <a class="nav-item nav-link text-white active" href="Index.html">Home</a>
                 <a class="nav-item nav-link text-white" href="CV.html">CV</a>
                 <a class="nav-item nav-link text-white" href="Overmij.html">Over mij</a>
+                <a class="nav-item nav-link text-white" href="Werkplekleren.html">Werkplekleren</a>
                 <a class="nav-item nav-link  text-white" href="Contact.html">Contact</a>
             </div>
         </div>
     </nav>
 </header>
-<div class="align-items-center justify-content-center">
-    <h1>Voorbeeldformulier</h1>
 
+<div class="d-flex flex-column align-items-center">
+    <h1>Formulier</h1>
     <form action="post-demo.php" method="post">
         <fieldset>
-            <legend>Persoonlijke gegevens</legend>
+            <legend class="mb-3">Persoonlijke gegevens</legend>
             <label for="firstName">Voornaam</label>
             <input type="text" name="Voornaam" id="firstName"/><br/>
             <label for="lastName">Familienaam</label>
@@ -37,18 +38,18 @@
             <input type="email" name="E-mail" id="email"/>
         </fieldset>
         <fieldset>
-            <legend>Uw vraag</legend>
-            <label for="questionType">Soort vraag</label>
+            <legend class="mt-4 mb-3">Uw vraag</legend>
+            <label for="questionType" class="mb-3">Soort vraag</label>
             <select name="Type-vraag" id="questionType">
                 <option value="algemeen">Algemene vraag</option>
                 <option value="offerte">Offerte aanvragen</option>
                 <option value="andere">Andere vraag</option>
             </select
             ><br/>
-            <label for="question">Uw vraag</label>
+            <label for="question" class="mb-3 me-3 float-start ">Uw vraag</label>
             <textarea name="Vraag" id="question" cols="30" rows="10"></textarea>
         </fieldset>
-        <label for="newsletter">Onze nieuwsbrief ontvangen?</label>
+        <label for="newsletter" class="mb-3">Onze nieuwsbrief ontvangen?</label>
         <input
                 type="checkbox"
                 name="Nieuwsbrief"
@@ -58,6 +59,39 @@
         <input type="submit" value="Verstuur"/>
     </form>
 </div>
+<footer class="bg-dark position-fixed bottom-0 w-100 mt-5 p-4">
+    <div class="container">
+        <div>
+            <div class="row text-center justify-content-center">
+                <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="Index.html" class="text-white">Home</a>
+                    </h6>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="CV.html" class="text-white">CV</a>
+                    </h6>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="Overmij.html" class="text-white">Over mij</a>
+                    </h6>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="Contact.html" class="text-white">Contact</a>
+                    </h6>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="text-uppercase font-weight-bold">
+                        <a href="Werkplekleren.html" class="text-white">Werkplekleren</a>
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 <script>
     document.addEventListener('DOMContentLoaded', () => {
